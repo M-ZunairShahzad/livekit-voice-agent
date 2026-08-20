@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+myvenv/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
